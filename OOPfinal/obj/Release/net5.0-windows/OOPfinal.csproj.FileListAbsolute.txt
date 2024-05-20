@@ -1,0 +1,8 @@
+D:\Users\User\VU_projects\OOPfinal\OOPfinal\obj\Release\net5.0-windows\MainWindow.g.cs
+D:\Users\User\VU_projects\OOPfinal\OOPfinal\obj\Release\net5.0-windows\App.g.cs
+D:\Users\User\VU_projects\OOPfinal\OOPfinal\obj\Release\net5.0-windows\OOPfinal_MarkupCompile.cache
+D:\Users\User\VU_projects\OOPfinal\OOPfinal\obj\Release\net5.0-windows\OOPfinal_MarkupCompile.lref
+D:\Users\User\VU_projects\OOPfinal\OOPfinal\obj\Release\net5.0-windows\MainWindow.baml
+D:\Users\User\VU_projects\OOPfinal\OOPfinal\obj\Release\net5.0-windows\OOPfinal.g.resources
+D:\Users\User\VU_projects\OOPfinal\OOPfinal\obj\Release\net5.0-windows\ref\OOPfinal.dll
+D:\Users\User\VU_projects\OOPfinal\OOPfinal\obj\Release\net5.0-windows\OOPfinal.pdb

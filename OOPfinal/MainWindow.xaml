@@ -1,0 +1,42 @@
+﻿<Window x:Class="OOPfinal.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OOPfinal"
+        mc:Ignorable="d"
+        Title="OOPFinal" Height="350" Width="525">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.5*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Column="0">
+            <StackPanel>
+                <Label Content="Password: " FontSize="13"/>
+                <PasswordBox x:Name="passwordField" HorizontalAlignment="Stretch" Margin="5" FontSize="13"/>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Button Grid.Row="0" Grid.Column="0" x:Name="hashBtn" Content="Hash" Margin="5" FontSize="13" Click="hashBtn_Click" />
+                    <Button Grid.Row="0" Grid.Column="1" x:Name="saveBtn" Content="Save" Margin="5" FontSize="13" Click="saveBtn_Click"/>
+                </Grid>
+            </StackPanel>
+            <StackPanel>
+                <Label Content="Threads: " FontSize="13"/>
+                <TextBox x:Name="threadField" HorizontalAlignment="Stretch" Margin="5" FontSize="13" Text="1"/>
+                <Button x:Name="btnStartBrute" Content="Start Brute" HorizontalAlignment="Stretch" Margin="5" FontSize="13" Click="btnStartBrute_Click"/>
+            </StackPanel>
+        </StackPanel>
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="0.1*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <ListBox Grid.Row="0" x:Name="listAttempts" HorizontalAlignment="Stretch" />
+            <Label Grid.Row="1" x:Name="timeLabel" HorizontalAlignment="Left" />
+        </Grid>
+    </Grid>
+</Window>
